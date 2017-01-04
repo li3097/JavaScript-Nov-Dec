@@ -1,0 +1,47 @@
+// Below is the greeting function!
+// See line 7
+// We can join strings together using the plus sign (+)
+// See the hint for more details about how this works.
+
+var greeting = function (name) {
+    console.log("Great to see you," + " " + name);
+};
+
+// On line 11, call the greeting function!
+greeting("Ernie");
+
+// Write your foodDemand function below.
+// Last hint: In your reusable block of code, end each line
+// with a semicolon (;)
+var foodDemand = function (food) {
+    console.log("I want to eat" + " " + food);
+};
+foodDemand("a burger");
+
+// Nicely written function:
+var calculate = function (number) {
+    var val = number * 10;
+    console.log(val);
+};
+
+// Badly written function with syntax errors!
+
+var greeting = function (name) {
+     console.log(name);
+     }; 
+     
+greeting("Ernie");
+
+var orangeCost = function (cost) {
+   console.log(cost * 5);
+};
+orangeCost("5");
+
+// Parameter is a number, and we do math with that parameter
+var timesTwo = function(number) {
+    return number * 2;
+};
+
+// Call timesTwo here!
+var newNumber = timesTwo (4)
+console.log(newNumber)
