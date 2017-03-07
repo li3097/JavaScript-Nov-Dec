@@ -1,0 +1,35 @@
+var coinFace = Math.floor(Math.random() * 2);
+
+while(coinFace === 0){
+	console.log("Heads! Flipping again...");
+	var coinFace = Math.floor(Math.random() * 2);
+}
+console.log("Tails! Done flipping.");
+
+var understand = true;
+
+while( understand ){
+	console.log("I'm learning while loops!");
+	understand = false;
+}
+
+var bool = true;
+
+while(bool){
+    console.log("Less is more!");
+    bool = false;
+}
+
+//Remember to set your condition outside the loop!
+
+var count = 0;
+var loop = function(){
+	while( count < 3){
+		//Your code goes here!
+		console.log("I'm looping!");
+		count++;
+		
+	}
+};
+
+loop();
