@@ -1,0 +1,149 @@
+var friends = {};
+friends.bill = {
+  firstName: "Bill",
+  lastName: "Gates",
+  number: "(206) 555-5555",
+  address: ['One Microsoft Way','Redmond','WA','98052']
+};
+friends.steve = {
+  firstName: "Steve",
+  lastName: "Jobs",
+  number: "(408) 555-5555",
+  address: ['1 Infinite Loop','Cupertino','CA','95014']
+};
+
+var list = function(obj) {
+  for(var prop in obj) {
+    console.log(prop);
+  }
+};
+
+var search = function(name) {
+  for(var prop in friends) {
+    if(friends[prop].firstName === name) {
+      console.log(friends[prop]);
+      return friends[prop];
+    }
+  }
+};
+
+list(friends);
+search("Steve");
+
+
+var friends = { };
+
+var friends = {
+    bill: {},
+    steve: {},
+    destin: {} 
+    };
+
+var friends = {
+    bill: {
+        firstName: "Bill",
+        lastName: "Nye",
+        number: "(653) 341-7283"
+        },
+    steve: {
+        firstName: "Steve",
+        lastName: "Howard",
+        number: "(249) 734-9123"
+        },
+    destin: {
+        firstName: "Destin",
+        lastName: "Tidball",
+        number: "(719) 289-9191"
+        } 
+    };
+
+
+var friends = {
+    bill: {
+        firstName: "Bill",
+        lastName: "Nye",
+        number: "(653) 341-7283",
+        address: ['2191 Ocean Ave', 'Oceanside', 'CA', '91234']
+        },
+    steve: {
+        firstName: "Steve",
+        lastName: "Howard",
+        number: "(249) 734-9123",
+        address: ['21 First St', 'Gary', 'IN', '23487']
+        },
+    destin: {
+        firstName: "Destin",
+        lastName: "Tidball",
+        number: "(719) 289-9191",
+        address: ['1 Broadmoor Way', 'Colorado Springs', 'CO', '80917']
+        }, 
+    };
+
+var friends = {
+    bill: {
+        firstName: "Bill",
+        lastName: "Nye",
+        number: "(653) 341-7283",
+        address: ['2191 Ocean Ave', 'Oceanside', 'CA', '91234']
+        },
+    steve: {
+        firstName: "Steve",
+        lastName: "Howard",
+        number: "(249) 734-9123",
+        address: ['21 First St', 'Gary', 'IN', '23487']
+        },
+    destin: {
+        firstName: "Destin",
+        lastName: "Tidball",
+        number: "(719) 289-9191",
+        address: ['1 Broadmoor Way', 'Colorado Springs', 'CO', '80917']
+        }, 
+    };
+  
+    var list = function(obj) {
+  for(var prop in obj) {
+    console.log(prop);
+  }
+};
+
+var friends = {
+    bill: {
+        firstName: "Bill",
+        lastName: "Nye",
+        number: "(653) 341-7283",
+        address: ['2191 Ocean Ave', 'Oceanside', 'CA', '91234']
+        },
+    steve: {
+        firstName: "Steve",
+        lastName: "Howard",
+        number: "(249) 734-9123",
+        address: ['21 First St', 'Gary', 'IN', '23487']
+        },
+    destin: {
+        firstName: "Destin",
+        lastName: "Tidball",
+        number: "(719) 289-9191",
+        address: ['1 Broadmoor Way', 'Colorado Springs', 'CO', '80917']
+        }, 
+    };
+  
+    var list = function(obj) {
+  for(var prop in obj) {
+    console.log(prop);
+  }
+};
+
+var search = function(name) {
+  for(var prop in friends) {
+    if(friends[prop].firstName === name) {
+      console.log(friends[prop]);
+      return friends[prop];
+    }
+  }
+};
+
+
+
+
+
+
